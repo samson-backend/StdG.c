@@ -23,7 +23,7 @@ public class Ex23ArrayListBasics {
         Students.remove("Tibs");
         
         // Get specific item (what's in position 1? )
-        String student = Students.get(10);
+        String student = Students.get(4);
         System.out.println("Student #1: " + student);
 
         // How many items? (how many dishes?)

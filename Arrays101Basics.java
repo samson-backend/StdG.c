@@ -13,7 +13,7 @@ public class Arrays101Basics {
 
         // Loop through array
         for(int i = 0; i < students.length; i++) {
-            System.out.println("Student " + (i=i) + ": " + students[i]);
+            System.out.println("Student " + (i+1) + ": " + students[i]);
         }
     }
 }
