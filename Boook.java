@@ -1,9 +1,9 @@
-public class Book {
+public class Boook {
     String title;
     String author;
     int pages;
 
-    public Book(String bookTitle, String bookAuthor, int bookPages) {
+    public Boook(String bookTitle, String bookAuthor, int bookPages) {
         title = bookTitle;
         author = bookAuthor;
         pages = bookPages;
@@ -15,7 +15,7 @@ public class Book {
         System.out.println("Pages: " + pages);
     }
     public static void main(String[] args) {
-        Book myBook = new Book("Java Basics", "John Doe", 300);
+        Boook myBook = new Boook("Java Basics", "John Doe", 300);
         myBook.showDetails();
     }
 
